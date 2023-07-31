@@ -111,6 +111,7 @@ let store_li = document.getElementById('store_li');
 let about_me_li = document.getElementById('about_me_li');
 
 let games_session = document.getElementById('games_session');
+let games_session2 = document.getElementById('games_session2');
 let experiences_session = document.getElementById('experiences_session');
 let store_session = document.getElementById('store_session');
 let about_me_session = document.getElementById('about_me_session');
@@ -129,11 +130,13 @@ games.addEventListener('click', ()=>
     session.innerText = "Games";
 
     games_session.style.visibility = 'unset';
+    games_session2.style.visibility = 'unset';
     experiences_session.style.visibility = 'hidden';
     store_session.style.visibility = 'hidden';
     about_me_session.style.visibility = 'hidden';
     
     games_session.style.display = '';
+    games_session2.style.display = '';
     experiences_session.style.display = 'none';
     store_session.style.display = 'none';
     about_me_session.style.display = 'none';
@@ -150,11 +153,13 @@ experiences.addEventListener('click', ()=>
 
     experiences_session.style.visibility = 'unset';
     games_session.style.visibility = 'hidden';
+    games_session2.style.visibility = 'hidden';
     store_session.style.visibility = 'hidden';
     about_me_session.style.visibility = 'hidden';
     
     experiences_session.style.display = '';
     games_session.style.display = 'none';
+    games_session2.style.display = 'none';
     store_session.style.display = 'none';
     about_me_session.style.display = 'none';
 
@@ -170,11 +175,13 @@ store.addEventListener('click', ()=>
 
     store_session.style.visibility = 'unset';
     games_session.style.visibility = 'hidden';
+    games_session2.style.visibility = 'hidden';
     experiences_session.style.visibility = 'hidden';
     about_me_session.style.visibility = 'hidden';
     
     store_session.style.display = '';
     games_session.style.display = 'none';
+    games_session2.style.display = 'none';
     experiences_session.style.display = 'none';
     about_me_session.style.display = 'none';
 
@@ -190,11 +197,13 @@ about_me.addEventListener('click', ()=>
 
     about_me_session.style.visibility = 'unset';
     games_session.style.visibility = 'hidden';
+    games_session2.style.visibility = 'hidden';
     experiences_session.style.visibility = 'hidden';
     store_session.style.visibility = 'hidden';
     
     about_me_session.style.display = '';
     games_session.style.display = 'none';
+    games_session2.style.display = 'none';
     experiences_session.style.display = 'none';
     store_session.style.display = 'none';
 
